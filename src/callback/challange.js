@@ -17,7 +17,7 @@ function fecthData(urlApi, callback){
     }
     xhttp.send();
 }
-// ALT + 96 = ` `
+// ALT + 96 = ` ` as
 fecthData(`${API}/products`, function(error1, data1){
     if(error1) return console.error(error1);
     fecthData(`${API}/products/${data1[0].id}`,function(error2, data2){
