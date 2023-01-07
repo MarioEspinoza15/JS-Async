@@ -3,7 +3,7 @@ function* gen() {
     yield 2;
     yield 3;
 }
-
+// s
 const g = gen();
 console.log(g.next().value);
 console.log(g.next().value);
